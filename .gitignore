@@ -1,0 +1,9 @@
+node_modules/
+src/components/externos/
+
+.sass-cache/
+Gemfile.lock
+entregable/
+.tmp
+.idea/
+

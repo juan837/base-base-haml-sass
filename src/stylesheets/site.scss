@@ -1,0 +1,24 @@
+// Reset
+//@import "CSS:normalize-css/normalize";
+//@import "compass";
+@import "bootstrap_modificado/bootstrap";
+
+// Base
+//@import "base/base";
+
+// Theme
+@import "theme/colors";
+@import "theme/layout";
+@import "theme/typography";
+@import "theme/theme";
+
+// Modules
+body{
+  //background-color: red;
+}
+.p{
+  background-color: #000000;
+}
+
+// Pages
+

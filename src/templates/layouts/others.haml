@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}/
+    %title Document
+    / build:css stylesheets/site.css
+    %link{:rel => "stylesheet", :href => "stylesheets/site.css"}
+    / endbuild
+
+    / build:js javascripts/vendor/modernizr.js
+    %script{:src => "componentes/externos/modernizr/modernizr.js"}
+    / endbuild
+  %body
+    {{> header_others}}
+    #content
+      {{> body}}
+    -#%footer
+    {{> footer}}
+
+  / build:js javascripts/site.js
+  %script{:src => "componentes/externos/jquery/dist/jquery.js"}
+  %script{:src => "componentes/javascripts/prueba.js"}
+  %script{:src => "componentes/bootstrap.min.js"}
+  / endbuild
